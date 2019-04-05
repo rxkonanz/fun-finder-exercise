@@ -18,6 +18,7 @@
     src: url("path/DINPro-Light.otf") format("opentype");
 }
 * {
+    font-family: DINPro, sans-serif;
     margin: 0;
 }
 
@@ -59,3 +60,12 @@ nav {
     padding: 45px 0 0 50px;
 }
 /* END NAVBAR STYLING */
+
+/* LANDING DIV STYLING */
+.landing-div {
+    text-align: center;
+}
+.landing-div h2 {
+    font-size: 40px;
+}
+/* END LANDING DIV STYLING */
