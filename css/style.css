@@ -15,7 +15,7 @@
 @font-face {
     font-family: DINPro;
     font-weight: lighter;
-    src: url("path/DINPro-Light.otf") format("opentype");
+    src: url("fonts/DINPro-Light.otf") format("opentype");
 }
 * {
     font-family: DINPro, sans-serif;
@@ -63,9 +63,83 @@ nav {
 
 /* LANDING DIV STYLING */
 .landing-div {
+    height: 930px;
     text-align: center;
 }
 .landing-div h2 {
+    font-size: 100px;
+    font-weight: 400;
+}
+.landing-div h4 {
+    font-size: 70px;
+    font-weight: 400;
+    padding-top: 70px;
+}
+.landing-div h6 {
     font-size: 40px;
+    font-weight: 400;
+}
+.sports-icons {
+    margin-top: 100px;
+    position: relative;
+    width: 80%;
+}
+.audi-img{
+    left: 200px;
+    top: 640px;
+    position: absolute;
 }
 /* END LANDING DIV STYLING */
+
+/* START SEARCH DIV STYLING */
+.search-div {
+    margin-top: 40px;
+}
+.search-options {
+    display: flex;
+    margin: 0 5% 60px 5%;
+    width: 90%;
+}
+.search-city, .find-map {
+    font-size: 30px;
+    height: 100px;
+    width: 50%;
+}
+.search-city {
+    background-color: black;
+    color: white;
+}
+.find-map {
+    background-color: white;
+    color: black;
+}
+.search-bar-container {
+    margin: 0 5%;
+    width: 90%;
+}
+.search-bar-container p {
+    font-size: 35px;
+}
+.search-bar {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 8px solid #FE0082;
+    height: 150px;
+    margin-bottom: 120px;
+    margin-top: 15px;
+    width: 100%;
+}
+.search-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 5% 0 5%;
+    width: 90%;
+}
+.search-icon {
+    height: 80px;
+    width: 80px;
+}
+#input-placeholder {
+    font-size: 75px;
+}
