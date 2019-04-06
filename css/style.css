@@ -93,12 +93,12 @@ nav {
 
 /* START SEARCH DIV STYLING */
 .search-div {
-    margin-top: 40px;
+    margin: 40px 5% 0 5%;
+    width: 90%;
 }
 .search-options {
     display: flex;
-    margin: 0 5% 60px 5%;
-    width: 90%;
+    margin-bottom: 60px;
 }
 .search-city, .find-map {
     font-size: 30px;
@@ -112,10 +112,6 @@ nav {
 .find-map {
     background-color: white;
     color: black;
-}
-.search-bar-container {
-    margin: 0 5%;
-    width: 90%;
 }
 .search-bar-container p {
     font-size: 35px;
@@ -142,4 +138,71 @@ nav {
 }
 #input-placeholder {
     font-size: 75px;
+}
+/* END SEARCH DIV STYLING */
+
+/* START RESULTS DIV STYLING */
+.results-div {
+    margin: 120px 5% 0 5%;
+    position: relative;
+    width: 90%;
+}
+.event-top {
+    display: flex;
+    font-size: 60px;
+    font-weight: 150;
+    justify-content: space-between;
+    letter-spacing: 0.2;
+}
+.event-bottom {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.poster-main {
+    background-image: url('../img/coachella-header.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    margin-top: 40px;
+    height: 600px;
+    width: 100%;
+}
+.poster-cover {
+    background-color: #EC028C;
+    border-radius: 30px;
+    height: 700px;
+    width: 100%;
+}
+.best-enjoyed {
+    font-size: 20px;
+    color: white;
+    padding-left: 5%;
+    padding-top: 62%;
+    width: 250px;
+}
+.car-model {
+    color: white;
+    font-size: 30px;
+    font-weight: 150;
+    letter-spacing: 0.1px;
+    padding-top: 3%;
+    padding-left: 5%;
+    width: 250px;
+}
+#balloon-image {
+    bottom: 420px;
+    left: 60%;
+    position: absolute;
+}
+.poster-car {
+    top: 450px;
+    left: 335px;
+    position: absolute;
+    width: 600px;
+}
+.reserve-button {
+    position: absolute;
+    top: 830px;
+    left: 435px;
+    width: 450px;
 }
