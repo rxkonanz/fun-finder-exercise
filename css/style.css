@@ -111,7 +111,7 @@ nav {
 }
 .find-map {
     background-color: white;
-    color: black;
+    color: #808080;
 }
 .search-bar-container p {
     font-size: 35px;
@@ -137,6 +137,7 @@ nav {
     width: 80px;
 }
 #input-placeholder {
+    color: #808080;
     font-size: 75px;
 }
 /* END SEARCH DIV STYLING */
@@ -171,6 +172,12 @@ nav {
     background-color: #EC028C;
     border-radius: 30px;
     height: 700px;
+    width: 100%;
+}
+.poster-outercover {
+    background-color: #261A42;
+    border-radius: 30px;
+    height: 720px;
     width: 100%;
 }
 .best-enjoyed {
