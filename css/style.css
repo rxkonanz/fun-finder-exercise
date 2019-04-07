@@ -25,6 +25,7 @@
 /* NAV BAR STYLING */
 nav {
     display: flex;
+    width: 100vw;
 }
 .hamburger-menu {
     border-top: 8px solid white;
@@ -63,7 +64,8 @@ nav {
 
 /* LANDING DIV STYLING */
 .landing-div {
-    height: 930px;
+    background: linear-gradient(to bottom left, white, #e5e5e5);
+    height: 1030px;
     text-align: center;
 }
 .landing-div h2 {
@@ -93,7 +95,7 @@ nav {
 
 /* START SEARCH DIV STYLING */
 .search-div {
-    margin: 40px 5% 0 5%;
+    margin: 0 5% 0 5%;
     width: 90%;
 }
 .search-options {
@@ -148,19 +150,27 @@ nav {
     position: relative;
     width: 90%;
 }
+.event {
+    margin-bottom: 160px;
+}
+.event-description {
+    margin: 0 2%;
+    width: 96%;
+}
 .event-top {
     display: flex;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 150;
     justify-content: space-between;
     letter-spacing: 0.2;
 }
 .event-bottom {
+    color: #808080;
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: space-between;
 }
-.poster-main {
+.poster-coachella {
     background-image: url('../img/coachella-header.jpg');
     background-size: cover;
     border-radius: 30px;
@@ -168,6 +178,15 @@ nav {
     height: 600px;
     width: 100%;
 }
+.poster-tennis {
+    background-image: url('../img/tennis-court.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    margin-top: 40px;
+    height: 600px;
+    width: 100%;
+}
+
 .poster-cover {
     background-color: #EC028C;
     border-radius: 30px;
@@ -194,22 +213,49 @@ nav {
     letter-spacing: 0.1px;
     padding-top: 3%;
     padding-left: 5%;
-    width: 250px;
+    width: 280px;
+}
+.found-for-you {
+    margin: 0 2%;
+    width: 96%;
 }
 #balloon-image {
-    bottom: 420px;
     left: 60%;
+    top: 100px;
     position: absolute;
 }
-.poster-car {
+#tennis-ball {
+    position: absolute;
+    left: 60%;
+    top: 1095px;
+    width: 200px;
+}
+#jeep {
     top: 450px;
     left: 335px;
     position: absolute;
     width: 600px;
+    -webkit-filter: drop-shadow(0px -25px 30px white);
+    filter: drop-shadow(0px -15px 10px white);
 }
-.reserve-button {
+#porsche {
+    left: 375px;
+    width: 500px;
+    top: 1545px;
+    height: auto;
     position: absolute;
-    top: 830px;
+    -webkit-filter: drop-shadow(-5px -10px 35px white);
+    filter: drop-shadow(-5px 10px 20px white);
+}
+#first-reserve-button {
+    position: absolute;
+    top: 820px;
     left: 435px;
-    width: 450px;
+    width: 440px;
+}
+#second-reserve-button {
+    position: absolute;
+    top: 1830px;
+    left: 435px;
+    width: 440px;
 }
