@@ -41,11 +41,6 @@ nav {
     height: 180px;
     width: 80%;
 }
-.right-nav {
-    background-color: #FE0082;
-    height: 180px;
-    width: 20%;
-}
 .login-button {
     background-color: #86898C;
     border: 0;
@@ -56,6 +51,11 @@ nav {
     margin: 55px 55px 0 0;
     width: 250px;
 }
+.right-nav {
+    background-color: #FE0082;
+    height: 180px;
+    width: 20%;
+}
 #worldmedia-logo {
     height: 50%;
     padding: 45px 0 0 50px;
@@ -63,6 +63,11 @@ nav {
 /* END NAVBAR STYLING */
 
 /* LANDING DIV STYLING */
+.audi-img{
+    left: 200px;
+    top: 640px;
+    position: absolute;
+}
 .landing-div {
     background: linear-gradient(to bottom left, white, #e5e5e5);
     height: 1030px;
@@ -86,14 +91,18 @@ nav {
     position: relative;
     width: 80%;
 }
-.audi-img{
-    left: 200px;
-    top: 640px;
-    position: absolute;
-}
 /* END LANDING DIV STYLING */
 
 /* START SEARCH DIV STYLING */
+.find-map {
+    background-color: white;
+    border: 1px solid #808080;
+    color: #808080;
+}
+#input-placeholder {
+    color: #808080;
+    font-size: 75px;
+}
 .search-div {
     margin: 0 5% 0 5%;
     width: 90%;
@@ -107,17 +116,9 @@ nav {
     height: 100px;
     width: 50%;
 }
-.find-map {
-    
-}
 .search-city {
     background-color: black;
     color: white;
-}
-.find-map {
-    background-color: white;
-    border: 1px solid #808080;
-    color: #808080;
 }
 .search-bar-container p {
     font-size: 35px;
@@ -142,17 +143,29 @@ nav {
     height: 80px;
     width: 80px;
 }
-#input-placeholder {
-    color: #808080;
-    font-size: 75px;
-}
 /* END SEARCH DIV STYLING */
 
 /* START RESULTS DIV STYLING */
-.results-div {
-    margin: 120px 5% 0 5%;
-    position: relative;
-    width: 90%;
+#balloon-image {
+    left: 60%;
+    top: 100px;
+    position: absolute;
+}
+.best-enjoyed {
+    font-size: 20px;
+    color: white;
+    padding-left: 5%;
+    padding-top: 62%;
+    width: 250px;
+}
+.car-model {
+    color: white;
+    font-size: 30px;
+    font-weight: 150;
+    letter-spacing: 0.1px;
+    padding-top: 3%;
+    padding-left: 5%;
+    width: 280px;
 }
 .event {
     margin-bottom: 160px;
@@ -174,6 +187,33 @@ nav {
     font-size: 25px;
     justify-content: space-between;
 }
+#first-reserve-button {
+    position: absolute;
+    top: 820px;
+    left: 435px;
+    width: 440px;
+}
+.found-for-you {
+    margin: 0 2%;
+    width: 96%;
+}
+#jeep {
+    top: 450px;
+    left: 335px;
+    position: absolute;
+    width: 600px;
+    -webkit-filter: drop-shadow(0px -25px 30px white);
+    filter: drop-shadow(0px -15px 10px white);
+}
+#porsche {
+    left: 375px;
+    width: 500px;
+    top: 1540px;
+    height: auto;
+    position: absolute;
+    -webkit-filter: drop-shadow(-5px -10px 35px white);
+    filter: drop-shadow(-5px 10px 20px white);
+}
 .poster-coachella {
     background-image: url('../img/coachella-header.jpg');
     background-size: cover;
@@ -190,7 +230,6 @@ nav {
     height: 600px;
     width: 100%;
 }
-
 .poster-cover {
     background-color: #EC028C;
     border-radius: 30px;
@@ -203,63 +242,20 @@ nav {
     height: 720px;
     width: 100%;
 }
-.best-enjoyed {
-    font-size: 20px;
-    color: white;
-    padding-left: 5%;
-    padding-top: 62%;
-    width: 250px;
-}
-.car-model {
-    color: white;
-    font-size: 30px;
-    font-weight: 150;
-    letter-spacing: 0.1px;
-    padding-top: 3%;
-    padding-left: 5%;
-    width: 280px;
-}
-.found-for-you {
-    margin: 0 2%;
-    width: 96%;
-}
-#balloon-image {
-    left: 60%;
-    top: 100px;
-    position: absolute;
-}
-#tennis-ball {
-    position: absolute;
-    left: 60%;
-    top: 1095px;
-    width: 200px;
-}
-#jeep {
-    top: 450px;
-    left: 335px;
-    position: absolute;
-    width: 600px;
-    -webkit-filter: drop-shadow(0px -25px 30px white);
-    filter: drop-shadow(0px -15px 10px white);
-}
-#porsche {
-    left: 375px;
-    width: 500px;
-    top: 1545px;
-    height: auto;
-    position: absolute;
-    -webkit-filter: drop-shadow(-5px -10px 35px white);
-    filter: drop-shadow(-5px 10px 20px white);
-}
-#first-reserve-button {
-    position: absolute;
-    top: 820px;
-    left: 435px;
-    width: 440px;
+.results-div {
+    margin: 120px 5% 0 5%;
+    position: relative;
+    width: 90%;
 }
 #second-reserve-button {
     position: absolute;
     top: 1830px;
     left: 435px;
     width: 440px;
+}
+#tennis-ball {
+    position: absolute;
+    left: 60%;
+    top: 1090px;
+    width: 200px;
 }
