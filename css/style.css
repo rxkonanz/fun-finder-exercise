@@ -107,12 +107,16 @@ nav {
     height: 100px;
     width: 50%;
 }
+.find-map {
+    
+}
 .search-city {
     background-color: black;
     color: white;
 }
 .find-map {
     background-color: white;
+    border: 1px solid #808080;
     color: #808080;
 }
 .search-bar-container p {
