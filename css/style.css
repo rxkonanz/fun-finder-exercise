@@ -70,7 +70,7 @@ nav {
 }
 .landing-div {
     background: linear-gradient(to bottom left, white, #e5e5e5);
-    height: 1030px;
+    height: 1050px;
     text-align: center;
 }
 .landing-div h2 {
@@ -110,6 +110,9 @@ nav {
 .search-options {
     display: flex;
     margin-bottom: 60px;
+    position: absolute;
+    top: 1180px;
+    width: 90%;
 }
 .search-city, .find-map {
     font-size: 30px;
@@ -119,6 +122,9 @@ nav {
 .search-city {
     background-color: black;
     color: white;
+}
+.search-bar-container {
+    margin-top: 140px;
 }
 .search-bar-container p {
     font-size: 35px;
